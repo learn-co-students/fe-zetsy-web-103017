@@ -47,15 +47,22 @@ p  {
 	font-size: 0.8em;
 }
 
-
-
 header a {
 	color: rgb(152,173,166);
 	text-decoration: none;
+	/* hover-transition */
+	-webkit-transition: color 0.5s ease-out;
+  -moz-transition: color 0.5s ease-out;
+  -o-transition: color 0.5s ease-out;
+  transition: color 0.5s ease-out;
 }
 
 header a:hover {
 	color: rgb(111,127,122);
+	-webkit-transition: color 0.5s ease-out;
+  -moz-transition: color 0.5s ease-out;
+  -o-transition: color 0.5s ease-out;
+  transition: color 0.5s ease-out;
 }
 
 #featured img {
@@ -78,13 +85,21 @@ header a:hover {
 #press img {
 	border: 5px #ccc solid;
 	padding: 1px;
+	-webkit-transition: border 0.5s ease-out;
+  -moz-transition: border 0.5s ease-out;
+  -o-transition: border 0.5s ease-out;
+  transition: border 0.5s ease-out;
 }
 
 #press img:hover {
 	border: 5px rgb(111,127,122) solid;
+	-webkit-transition: border 0.5s ease-out;
+  -moz-transition: border 0.5s ease-out;
+  -o-transition: border 0.5s ease-out;
+  transition: border 0.5s ease-out;
 }
 
 footer {
 	text-align: right;
-	background: #fff;
+	background: yellow;
 }
